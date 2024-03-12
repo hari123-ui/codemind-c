@@ -1,13 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int x,j=0,i;
+    int x;
     scanf("%d",&x);
-    for( i = 1;i<=x;i++)
-    {
-        j +=i;
-        
-    }
+    int j  =(x*(x+1))/2;
     printf("%d",j);
     return 0;
 }
